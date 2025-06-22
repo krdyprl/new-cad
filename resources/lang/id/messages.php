@@ -1,0 +1,148 @@
+<?php
+
+return [
+    'welcome' => 'Selamat Datang di Sistem CAD',
+    'home' => 'Beranda',
+    'information' => 'Informasi',
+    'catalog' => 'Katalog',
+    'booking' => 'Pemesanan',
+    'contact' => 'Kontak',
+
+    // Navigation
+    'chatbot' => 'Chatbot',
+    'virtual_tour' => 'Tur Virtual',
+    'login' => 'Masuk',
+    'register' => 'Daftar',
+    'logout' => 'Keluar',
+    'profile' => 'Profil',
+    'my_bookings' => 'Pesanan Saya',
+    'admin_panel' => 'Panel Admin',
+    // Footer + home cards
+    'useful_links' => 'Tautan Berguna',
+    'contact_info' => 'Info Kontak',
+    'get_started' => 'Mulai',
+    'phone' => 'Telepon',
+    'email' => 'Email',
+    'address' => 'Jl. MT. Haryono No. 167, Dinoyo, Malang, Jawa Timur, Indonesia',
+    'chatbot_feature' => 'Fitur Chatbot',
+    'chatbot_desc' => 'Fitur chatbot ini membantu Anda menjelajahi Kampung Keramik Dinoyo.',
+    'vtour_desc' => 'Nikmati penjelajahan virtual Kampung Keramik Dinoyo.',
+    'catalog_desc' => 'Sambil menjelajah, Anda juga bisa membeli produk keramik unggulan dari Dinoyo.',
+    'booking_desc' => 'Pesan kunjungan Anda ke Kampung Keramik Dinoyo dan nikmati pengalaman membuat keramik.',
+    // Home section
+    'home_eyebrow' => 'Apa yang bisa kamu lakukan',
+    'home_section_title_a' => 'Empat cara menikmati',
+    'home_section_title_b' => 'Kampung Keramik',
+    'home_section_lead' => 'Dari bertanya, berkeliling virtual, berbelanja, hingga memesan kunjungan — semuanya dimulai di sini.',
+
+    'about_us' => 'Tentang Kami',
+    'services' => 'Layanan',
+    'gallery' => 'Galeri',
+    'news' => 'Berita',
+    'language' => 'Bahasa',
+    'search' => 'Cari',
+    'read_more' => 'Baca Selengkapnya',
+    'submit' => 'Kirim',
+    'cancel' => 'Batal',
+    'save' => 'Simpan',
+    'edit' => 'Edit',
+    'delete' => 'Hapus',
+    'back' => 'Kembali',
+    'next' => 'Selanjutnya',
+    'previous' => 'Sebelumnya',
+    'loading' => 'Memuat...',
+    'error' => 'Error',
+    'success' => 'Berhasil',
+    'warning' => 'Peringatan',
+    'info' => 'Informasi',
+    'page_not_found' => 'Halaman Tidak Ditemukan',
+    'back_to_home' => 'Kembali ke Beranda',
+    'something_went_wrong' => 'Terjadi kesalahan',
+    'try_again' => 'Coba lagi',
+
+    // Information Page
+    'information_page' => [
+        'title' => 'INFORMASI',
+        'subtitle' => 'Semua informasi tentang ceramic art dinoyo',
+        'educational_title' => 'Pengalaman Edukatif dan Kreatif',
+        'educational_desc' => 'Pengalaman menawarkan kesempatan untuk pengunjung bisa belajar mengikuti workshop membuat keramik sendiri. Ini menjadi pengalaman kreatif yang tak terlupakan, cocok untuk segala usia yang ingin belajar tentang seni keramik.',
+        'heritage_title' => 'Warisan Budaya yang Terjaga',
+        'heritage_desc' => 'Kampung Keramik Dinoyo telah menjadi pusat produksi keramik sejak tahun 1950-an. Hingga kini, industri ini menjadi simbol warisan budaya Malang yang masih dipertahankan, dengan berbagai jenis keramik yang diproduksi dengan sistem tradisional dan modern.',
+        'center_title' => 'Pusat Kerajinan Keramik Khas Malang',
+        'center_desc' => 'Tempat ini dikenal sebagai salah satu sentra kerajinan yang menghasilkan keramik berkualitas tinggi. Pengunjung dapat melihat langsung proses pembuatan keramik, dan pengrajin lokal dapat membeli produk unik sebagai oleh-oleh.',
+        'button' => 'Tombol',
+    ],
+    
+    // Catalog Page
+    'catalog_page' => [
+        'title' => 'Galeri',
+        'subtitle' => 'Produk tentang ceramic art dinoyo',
+        'keywords' => 'Kata Kunci',
+        'label' => 'Label',
+        'description' => 'Deskripsi',
+        'color' => 'Warna',
+        'size' => 'Ukuran',
+        'search' => 'Cari',
+        'new' => 'Baru',
+        'price_asc' => 'Harga naik',
+        'price_desc' => 'Harga turun',
+        'rating' => 'Rating',
+        'ecommerce_link' => 'Link E-Commerce',
+        'product_desc' => 'Nikmati pengalaman berbelanja keramik dari Kampung Keramik Dinoyo, Malang.',
+    ],
+    
+    // Booking Page
+    'booking_page' => [
+        'title' => 'Form Pemesanan',
+        'subtitle' => 'Form Pemesanan Dinoyo Ceramic Art',
+        'name' => 'Nama',
+        'phone' => 'Nomor Telepon',
+        'email' => 'Email',
+        'package' => 'Paket',
+        'select_package' => 'Pilih paket',
+        'date' => 'Tanggal',
+        'select_date' => 'Pilih tanggal',
+        'time' => 'Waktu',
+        'submit' => 'Kirim',
+        'cancel' => 'Batal',
+        'success_message' => 'Pemesanan berhasil dikirim! Invoice akan terbuka di jendela baru.',
+    ],
+    
+    // Contact Page
+    'contact_page' => [
+        'title' => 'KONTAK',
+        'subtitle' => 'Terhubung dengan ceramic art dinoyo',
+        'address_title' => 'Alamat Kami',
+        'address' => 'Kampung Keramik Dinoyo<br>Jl. MT Haryono 9 Kec. Dinoyo<br>Kec. Lowokwaru, Kota Malang<br>Jawa Timur 65145',
+        'call_title' => 'Hubungi Kami',
+        'email_title' => 'Email Kami',
+        'form_title' => 'Kirim Pesan',
+        'form_subtitle' => 'Kami ingin mendengar dari Anda. Kirim pesan dan kami akan merespon sesegera mungkin.',
+        'full_name' => 'Nama Lengkap',
+        'full_name_placeholder' => 'Masukkan nama lengkap Anda',
+        'email_placeholder' => 'Masukkan alamat email Anda',
+        'phone_placeholder' => 'Masukkan nomor telepon Anda',
+        'subject' => 'Subjek',
+        'subject_placeholder' => 'Tentang apa ini?',
+        'message' => 'Pesan',
+        'message_placeholder' => 'Tulis pesan Anda di sini...',
+        'send_message' => 'Kirim Pesan',
+        'success_message' => 'Terima kasih atas pesan Anda! Kami akan menghubungi Anda segera.',
+    ],
+    
+    // Footer
+    'footer' => [
+        'title' => 'CAD System',
+        'description' => 'Kampung Keramik Dinoyo adalah sebuah kawasan di Kota Malang, Jawa Timur, yang terkenal sebagai sentra pengrajin keramik.',
+        'useful_links' => 'Link Berguna',
+        'copyright' => 'Hak Cipta',
+        'all_rights_reserved' => 'Semua Hak Dilindungi',
+    ],
+    
+    // Common
+    'common' => [
+        'language' => 'Bahasa',
+        'value_placeholder' => 'Nilai...',
+    ],
+
+];
