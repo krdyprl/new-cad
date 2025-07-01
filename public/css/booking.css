@@ -1,0 +1,71 @@
+/* Booking Feature Styles */
+.feature-item .fa-calendar-check {
+    color: #cab491; /* Match with primary color scheme */
+    font-size: 2.5rem;
+}
+
+/* Booking Page Styles */
+.booking-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.booking-intro {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.booking-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-submit {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-primary {
+    padding: 12px 24px;
+    background-color: #cab491; /* Match with primary color scheme */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #a68b57; /* Match with primary dark color */
+}

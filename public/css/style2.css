@@ -1,0 +1,93 @@
+/* Booking Feature Styles */
+.feature-item {
+    transition: transform 0.3s ease;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.feature-item .fas.fa-calendar-check {
+    color: #cab491; /* Match with primary color scheme */
+    font-size: 3rem;
+}
+
+/* Booking Page Styles */
+.booking-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.booking-content h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.booking-content p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.booking-form {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #cab491; /* Match with primary color scheme */
+}
+
+.submit-btn {
+    background: #cab491; /* Match with primary color scheme */
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.submit-btn:hover {
+    background: #a68b57; /* Match with primary dark color */
+}
+
+@media (max-width: 768px) {
+    .booking-container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}

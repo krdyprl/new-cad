@@ -1,0 +1,137 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 0.8rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 600;
+}
+
+/* Carousel Styles */
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    filter: brightness(0.7);
+}
+
+.carousel-caption {
+    bottom: 25%;
+}
+
+.carousel-caption h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #cab491; /* Match with primary color scheme */
+    border-color: #cab491;
+    padding: 0.6rem 2rem;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #a68b57; /* Match with primary dark color */
+    border-color: #a68b57;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(202, 180, 145, 0.3);
+}
+
+/* Language Selector */
+#languageSelector {
+    width: auto;
+    min-width: 70px;
+    height: 30px;
+    font-size: 0.8rem;
+}
+
+/* Feature Section Styles */
+.feature-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    background-color: #222;
+    color: white;
+}
+
+.feature-item {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    color: #e3d5b8;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    margin-bottom: 20px;
+}
+
+.feature-link {
+    color: #e3d5b8;
+    text-decoration: none;
+}
+
+.feature-link:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 400px;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 2.2rem;
+    }
+    
+    .carousel-caption p {
+        font-size: 1.1rem;
+    }
+}

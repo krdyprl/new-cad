@@ -1,0 +1,244 @@
+/*===========================================================
+# MASTER CSS - CONSISTENT COLOR SCHEME FOR ALL PAGES
+# Author: Custom Development
+# Version: 1.0
+# Description: Master CSS file that overrides all colors for consistency
+===========================================================*/
+
+/* Import all necessary CSS files */
+@import url('./custom-global.css');
+@import url('./style.css');
+@import url('./styles.css');
+@import url('./booking.css');
+@import url('./style2.css');
+
+/* Master Color Override - Force consistent color scheme */
+:root {
+    /* Override all primary colors with consistent scheme */
+    --primary-color: #cab491 !important;
+    --primary-dark: #a68b57 !important;
+    --primary-light: #dcc6a0 !important;
+    --primary-hover: #b39b78 !important;
+}
+
+/* Global Button Overrides */
+.btn-primary,
+.btn-success,
+.btn-custom-primary,
+.submit-btn,
+button[type="submit"],
+input[type="submit"] {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-custom-primary:hover,
+.submit-btn:hover,
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+    background-color: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
+}
+
+/* Icon Color Overrides */
+.fa-calendar-check,
+.fas.fa-calendar-check,
+.feature-icon,
+.icon-primary {
+    color: var(--primary-color) !important;
+}
+
+/* Link Color Overrides */
+a.text-primary,
+.text-primary,
+.link-primary {
+    color: var(--primary-color) !important;
+}
+
+a.text-primary:hover,
+.text-primary:hover,
+.link-primary:hover {
+    color: var(--primary-dark) !important;
+}
+
+/* Form Focus States */
+.form-control:focus,
+.form-select:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 0.2rem rgba(202, 180, 145, 0.25) !important;
+}
+
+/* Navigation Active States */
+.navbar-nav .nav-link.active,
+.nav-pills .nav-link.active {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+/* Card Accent Colors */
+.card-header,
+.bg-primary {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+/* Progress Bars */
+.progress-bar,
+.progress-bar-primary {
+    background-color: var(--primary-color) !important;
+}
+
+/* Badge Colors */
+.badge-primary,
+.badge.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+/* Alert Primary */
+.alert-primary {
+    background-color: rgba(202, 180, 145, 0.1) !important;
+    border-color: var(--primary-light) !important;
+    color: var(--primary-dark) !important;
+}
+
+/* Table Striped Rows */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(202, 180, 145, 0.05) !important;
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators button.active {
+    background-color: var(--primary-color) !important;
+}
+
+/* Pagination */
+.page-link {
+    color: var(--primary-color) !important;
+}
+
+.page-link:hover {
+    color: var(--primary-dark) !important;
+    background-color: rgba(202, 180, 145, 0.1) !important;
+    border-color: var(--primary-light) !important;
+}
+
+.page-item.active .page-link {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+/* Override any green/blue colors that might appear */
+.text-success,
+.text-info,
+.btn-success:not(.btn-primary),
+.btn-info:not(.btn-primary) {
+    color: var(--primary-color) !important;
+}
+
+/* Dropdowns */
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+/* Toast notifications */
+.toast-header,
+.toast.bg-primary {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+/* List Group */
+.list-group-item.active {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+/* Checkboxes and Radio buttons */
+.form-check-input:checked {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+/* Range Inputs */
+.form-range::-webkit-slider-thumb {
+    background-color: var(--primary-color) !important;
+}
+
+.form-range::-moz-range-thumb {
+    background-color: var(--primary-color) !important;
+}
+
+/* Spinners */
+.spinner-border.text-primary,
+.spinner-grow.text-primary {
+    color: var(--primary-color) !important;
+}
+
+/* Override any conflicting colors from external libraries */
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--primary-color) !important;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: var(--primary-color) !important;
+    color: #FFF !important;
+}
+
+/* Override any lingering green/blue colors */
+*[style*="color: #28a745"],
+*[style*="color: #6253e1"],
+*[style*="color: #ff7700"],
+*[style*="background-color: #28a745"],
+*[style*="background-color: #6253e1"],
+*[style*="background-color: #ff7700"] {
+    color: var(--primary-color) !important;
+    background-color: var(--primary-color) !important;
+}
+
+/* Additional Classes for Consistent Backgrounds */
+.page-header,
+.chatbot-hero,
+.chat-header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%) !important;
+    color: white !important;
+}
+
+.status-indicator {
+    background: var(--primary-color) !important;
+}
+
+.bg-success {
+    background-color: var(--primary-color) !important;
+}
+
+/* Override hardcoded colors in inline styles and others */
+*[style*="color: #667eea"],
+*[style*="color: #764ba2"],
+*[style*="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)"],
+*[style*="background-color: #007bff"] {
+    color: var(--primary-color) !important;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%) !important;
+    background-color: var(--primary-color) !important;
+}
+
+/* Ensure consistent hover states */
+.btn:hover,
+.btn-primary:hover,
+.btn-outline-primary:hover,
+.nav-link:hover,
+.dropdown-item:hover {
+    color: white !important;
+    background-color: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
+}
