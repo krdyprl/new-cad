@@ -1,0 +1,6 @@
+This folder contains placeholder images for the ceramic art website.
+Images can be added here later for:
+- about-mission.jpg
+- about-vision.jpg
+- about-care.jpg
+- favicon.png

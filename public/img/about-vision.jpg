@@ -1,0 +1,13 @@
+<?php
+// Create placeholder image if doesn't exist
+$imagePath = __DIR__ . '/about-vision.jpg';
+if (!file_exists($imagePath)) {
+    // Create a simple placeholder image
+    $image = imagecreate(300, 200);
+    $bg = imagecolorallocate($image, 240, 240, 240);
+    $text_color = imagecolorallocate($image, 100, 100, 100);
+    imagestring($image, 5, 100, 90, 'About Vision', $text_color);
+    imagejpeg($image, $imagePath);
+    imagedestroy($image);
+}
+?>
